@@ -510,9 +510,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  22.20
-    #define DEFAULT_Ki   1.08
-    #define DEFAULT_Kd 114.00
+    #define DEFAULT_Kp  31.67
+    #define DEFAULT_Ki   2.97
+    #define DEFAULT_Kd 84.37
   #endif
 #endif // PIDTEMP
 
@@ -919,7 +919,7 @@
  *      - normally-closed switches to GND and D32.
  *      - normally-open switches to 5V and D32.
  */
-//#define Z_MIN_PROBE_PIN P0_10
+#define Z_MIN_PROBE_PIN P0_10
 
 /**
  * Probe Type
