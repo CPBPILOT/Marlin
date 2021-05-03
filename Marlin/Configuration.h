@@ -510,9 +510,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  31.67
-    #define DEFAULT_Ki   2.97
-    #define DEFAULT_Kd 84.37
+    #define DEFAULT_Kp  32.45
+    #define DEFAULT_Ki   2.99
+    #define DEFAULT_Kd 88.14
   #endif
 #endif // PIDTEMP
 
@@ -1229,9 +1229,9 @@
 #define Y_BED_SIZE 164
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -11.7
-#define Y_MIN_POS -28.6
-#define Z_MIN_POS 0
+#define X_MIN_POS -20.7
+#define Y_MIN_POS -31.7
+#define Z_MIN_POS -3
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
 #define Z_MAX_POS 170
